@@ -1,0 +1,259 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    
+    width: 88%;
+    padding: 1%;
+    margin: 0 auto;
+}
+/*Css for menu*/
+.menu {
+    border-bottom: 1px solid gray;
+}
+.menu ul {
+    
+    list-style-type: none;
+}
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #ff6b81;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color:  #ff4757;
+}
+.text-center {
+    text-align: center;
+}
+
+/*Css for Main*/
+
+
+.main {
+    background-color: #f1f2f6;
+    height: 100%
+}
+
+.col-4 {
+    background-color: white;
+    width: 20%;
+    margin: 1%;
+    padding: 35px 20px
+}
+.dasboard {
+    display: flex;
+    
+}
+.bold {
+    font-weight: bold;
+}
+
+.form-add {
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    background-color: #adadad;
+    color: #333
+}
+.form-add h1 {
+    color: #333;
+    
+    padding: 15px;
+}
+
+.input-box span {
+    
+    min-width: 124px;
+}
+.input-box {
+    margin-bottom: 20px;
+    display: flex;
+}
+.select {
+    width: 200px;
+    
+}
+.select select {
+    text-align: center;
+    width: 100%;
+    padding: 2px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 28px;
+    
+    font-weight: 700;
+}
+.input-box textarea {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 307px;
+    height: 102px;
+    padding: 2px 2px;
+}
+.blue {
+    color: blue;
+}
+
+.input-box input[type="text"] { 
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 250px;
+    padding: 2px 2px;
+}
+.input-box input[type="password"] { 
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 200px;
+}
+.input-box input:focus {
+    border-bottom: 2px solid #58e735;
+}
+.input-box input[type="radio"]{
+    margin: 0 15px;
+}
+
+.btn-submit input{
+    font-weight: 700;
+    color: #333;
+    background-color: #ff6b81;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.btn-submit input:hover{
+    cursor: pointer;
+    background-color:  #ff4757;
+}
+.tbl-full {
+    background-color: #adadad;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.tbl-30 {
+    width: 30%;
+}
+
+.tbl-full tr {
+    padding: 10px 0;
+}
+
+.tbl-full tr th {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.tbl-full tr td {
+    text-align: center;
+    padding: 1%;
+}
+
+.tbl-30 tr th {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.tbl-30 tr td {
+    text-align: left;
+    padding: 1%;
+}
+.images {
+    width: 100px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.images img {
+    
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.images img:hover {
+    transform: scale(1.5);
+}
+.success {
+    color: green;
+}
+.fail{
+    color: red;
+}
+
+.btn-add {
+    background-color: #ff6b81;
+    border: none;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: 0.4s;
+    color: white;
+}
+.btn-add a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.btn-update,
+.btn-delete,
+.btn-changepass {
+    border: none;
+    margin: 0 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: 0.4s;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.btn-changepass{
+    background-color: blue;
+}
+.btn-update{
+    background-color: #2ecc71;
+}
+.btn-delete {
+    background-color: #ff6b81;
+    
+}
+.btn-delete:hover,
+.btn-update:hover,
+.btn-add:hover,
+.btn-changepass:hover {
+    cursor: pointer;
+    opacity: 0.5    ;
+    
+}
+
+
+
+/*Css for Footer*/
+.footer {
+    padding: 1%;
+    width: 100%;
+    background-color: #ff4757;
+    color: white;
+    
+}
